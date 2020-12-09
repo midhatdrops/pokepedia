@@ -1,0 +1,22 @@
+/*  font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;*/
+
+:root {
+  --main-bg-color: #000000;
+}
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+body {
+  max-width: 1920px;
+  max-height: 1080px;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--main-bg-color);
+}

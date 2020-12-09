@@ -1,11 +1,9 @@
 import React from 'react';
+import './Assets/Styles/global.css';
+import Pokepedia from './Pages/Pokepedia';
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
-  );
+  return <Pokepedia />;
 }
 
 export default App;
